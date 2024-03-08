@@ -1,0 +1,77 @@
+body{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+h1{
+    font-size: 50px;
+    padding-left: 5px;
+}
+h2{
+    font-size: 50px;
+}
+section{
+    margin: 100px 20px;
+}
+p{
+    margin-bottom: 20px;
+}
+.flexible{
+    display: flex;
+    padding: 20px 10%;
+}
+.half-width{
+    width: 45%;
+    margin: 0 auto;
+}
+.left-border{
+    border-left: 5px solid rgb(255, 102, 0);
+}
+.orange-color{
+    color: orange;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange, rgb(187, 60, 38));
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.half-width img{
+    width: 80%;
+}
+.mission-header{
+    text-align: center;
+}
+#mission{
+    background-color: rgb(212, 223, 115);
+}
+#vission{
+    background-color: rgb(153, 233, 153);
+}
+#goals{
+    background-color: coral;
+}
+.one-third{
+    width: 25%;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+.one-third img{
+    width: 30%;
+}
+.develop-background{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position-x: 5%;
+    background-position-y: center;
+    background-size: 20%;
+}
+.projects-background{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 100%;
+    background-size: 15%;
+}
